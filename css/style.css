@@ -37,8 +37,7 @@ main {
 }
 
 .card {
-    width: 70vw;
-    max-height: 100%;
+    width: 75vw;
     background-color: var(--dark-desaturated-blue);
     display: flex;
     flex-direction: row;
@@ -48,11 +47,11 @@ main {
 
 .card-left {
     width: 50%;
-    padding: 3rem;
+    padding: 4.5rem 4rem 0 5rem;
 }
 
 .title {
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: var(--white);
     font-family: 'Inter', sans-serif;
 }
@@ -60,7 +59,7 @@ main {
 .subtitle {
     color: var(--slightly-transparent-white);
     font-family: 'Inter', sans-serif;
-    margin: 1.5rem 0 5rem 0;
+    margin: 1.7rem 0 4.5rem 0;
     line-height: 1.6;
     width: 90%;
 }
@@ -69,14 +68,14 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     line-height: 1.5;
 }
 
 .stats .number {
     color: var(--white);
     font-family: 'Inter', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
@@ -84,13 +83,12 @@ main {
     color: var(--slightly-transparent-white);
     text-transform: uppercase;
     font-family: 'Lexend Deca', sans-serif;
-    font-size: .7rem;
+    font-size: .8rem;
     font-weight: 400;
 }
 
 .card-right {
     width: 50%;
-    height: 100%;
     background-color:hsl(273, 71%, 49%);
 }
 
@@ -99,6 +97,7 @@ main {
     height: 100%;
     display: block;
     opacity: .7;
+    object-fit: cover;
 }
 
 .card-right .img-mobile {
@@ -109,7 +108,7 @@ main {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
     .img-desktop {
         display: none;
     }
